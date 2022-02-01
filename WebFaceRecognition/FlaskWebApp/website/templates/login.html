@@ -1,0 +1,36 @@
+{% extends "base.html" %} 
+{% block title %}Login{% endblock %} 
+{% block content %}
+<br>
+<div class="d-flex justify-content-center align-items-center container ">
+<div class="row">
+<form method="POST">
+  <h3 align="center">SMP AN-Nur Jakarta</h3>
+  <h5 align="center">Attendance Management System</h5>
+  <center><img src="{{ url_for('static', filename='images/logo_sekolah.png') }}" class="img-responsive" /></center>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      placeholder="Masukkan Email"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      name="password"
+      placeholder="Masukkan Password"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button><br><br>
+  <center><p>Tidak Punya Akun ? <a id="signUp" href="/sign-up">Daftar Disini</a></p></center>
+</form>
+</div>
+</div>
+{% endblock %}

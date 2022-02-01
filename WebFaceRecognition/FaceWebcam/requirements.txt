@@ -1,0 +1,21 @@
+click==8.0.3
+colorama==0.4.4
+cycler==0.11.0
+dlib @ file:///D:/bld/dlib_1617441752500/work
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+Flask==2.0.2
+fonttools==4.28.5
+itsdangerous==2.0.1
+Jinja2==3.0.3
+kiwisolver==1.3.2
+MarkupSafe==2.0.1
+matplotlib==3.5.1
+numpy @ file:///D:/bld/numpy_1641177306887/work
+opencv-python==4.5.5.62
+packaging==21.3
+Pillow==9.0.0
+pyparsing==3.0.6
+python-dateutil==2.8.2
+six==1.16.0
+Werkzeug==2.0.2
